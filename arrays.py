@@ -1,6 +1,7 @@
 # Python Arrays
 import array
 from array import *
+import sys
 
 # Array of typecode i
 scores= array('i',[12,15,20,50,34,65,70])
@@ -30,5 +31,8 @@ print(id(scores))
 print(id2)
 print(the_id)
 
+# Getting size of scores using sys module
+size=sys.getsizeof(scores)
+print(size)
 
 
